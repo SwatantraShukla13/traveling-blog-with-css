@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+        /* blog heading design */
+.header{
+    background-color: rgb(51, 49, 49);
+    padding: 25px 20px;
+    color: aliceblue;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    height: 100%;
+}
+.header h1{
+    color: rgb(131, 252, 232);
+}
+.header h1:hover{
+    color: rgb(119, 214, 252)
+}
+.header p{
+    font: 16px 'Serif';
+}
+h1 span{
+    text-decoration: underline;
+}
+.header p::first-letter{
+    color: peru;
+    font-size: 20px;
+}
+        /* main content design block */
+main{
+    padding: 20px 20px;
+    background-color: rgb(237, 247, 252);
+    display: flex;
+    flex-direction: column;
+} 
+img{
+    width: 280px;
+    height: 180px;
+}
+main h3,h4{
+    font: 20px 'Serif' bold;
+    text-decoration: underline;
+    margin: 20px;
+}
+ul{
+    font-size: 50px;
+}
+ul li{
+    font: 18px 'serif';
+    margin: 10px;
+    color:black;
+    
+}
+video{
+    margin-left: 20px;
+}
+img:hover{
+    opacity: 0.6;
+}
+    /* footer design */
+footer{
+    background-color: black;
+    width: 100%;
+    height: 30px;
+    padding: 2px 4px;
+}
+footer p{
+    color: white;
+    font-size: 16px;
+    padding: 4px 20px;
+    text-align: center;
+}

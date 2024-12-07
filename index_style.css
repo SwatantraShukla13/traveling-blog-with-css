@@ -1,0 +1,114 @@
+        /* Universal selector */
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+        /* navigation design */
+.navbar{
+    background-color: black;
+    height: 38px;
+    overflow: hidden;
+    height: 100%;
+}
+.navbar ul{
+    float: right;
+    margin-right: 20px;
+}
+.navbar ul li{
+    display: inline-block;
+    line-height: 38px;
+    margin: 0 5px;
+}
+.navbar ul li a{
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    font: 16px 'Arial';
+    padding: 10px 10px;
+    display: flex;
+}
+a:hover:not(:active){
+    background-color:rgb(243, 233, 233);
+    color: black;
+}
+        /* heading design block */
+.heading{
+    background-color: rgb(34, 30, 30);
+    padding: 25px 20px;
+    color: aliceblue;
+    height: 80px;
+    display: flex;
+    height: 100%;
+}
+.heading h1{
+    color: #09c372;
+}
+.heading p{
+    font: 16px 'Times New Roman', Times, serif;
+}
+        /* section design */
+section{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: row wrap;
+    padding-left: 10px;
+    background-color: rgba(161, 232, 248,0.3);    
+    align-items: stretch;
+}
+    /* article design */
+article{
+    background-color:white;
+    width: 400px;
+    /* height: 600px;  */
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 5px solid rgb(209, 216, 209);
+    justify-content: space-around;
+    flex-grow: 1;
+}
+article h2{
+    color: black;
+}
+/* article haver effect */
+article:hover{
+   transform: scale(1.01);
+}
+article>h2~p,h3{
+    margin: 8px 10px ;
+} 
+/* article span decoration */
+article span{
+    text-decoration: underline;
+}
+/* article heading 2 hover effect */
+article h2:hover{
+    color:rgb(64, 91, 245);
+}
+/* changing color and font size of first letter of paragraph  */
+article p::first-letter{
+    font-size: 22px;
+    color: red;
+}
+ul li,img{
+    margin: 3px;
+}
+ul img{
+    width: 200px;
+    height: 150px;
+}
+/* article image hover effect */
+article ul img:hover{
+    opacity: 0.7;
+}
+footer{
+    background-color: black;
+    height: 30px;    
+}
+footer p{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding: 6px 20px;
+}
